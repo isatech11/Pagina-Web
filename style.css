@@ -1,0 +1,190 @@
+:root{ 
+    --mainColor:#6C63FF;
+}
+
+
+
+section{ 
+   
+}
+
+.Cuadro{
+    margin: 5rem;
+}
+
+.containerHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.headerList{
+    list-style-type: none;
+    display:flex
+
+}
+
+.headerList > li {
+    margin: 0 2.5rem;
+}
+
+.containerLogo{
+    display: flex;
+    align-items: center;
+
+}
+ .logo{
+     width: 45px;
+     height:30px;
+     
+ }
+
+ .btn{
+     padding: 0.7rem 1.5rem;
+ }
+
+  .btn-signin{
+     background-color: white;
+     color: black;
+     border: solid thin gray
+ }
+
+ .btn-register{
+     background-color: var(--mainColor)
+     ;
+     color: white;
+     border: solid thin gray;
+
+ }
+
+ .btnSecundary{
+     padding: 0.6rem 2rem;
+
+ }
+
+.primerTittle{
+    font-size: medium;
+    color: var(--mainColor);
+
+
+}
+
+.cuadroDos{ display: flex;
+    justify-content: space-around;
+
+
+}
+
+.mainSection--title{
+    position: relative;
+    padding: 1rem 0;
+}
+
+.mainSection--title::before{
+
+    content: "";
+    width: 3rem;
+    height: 0.2rem;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.imgUno{
+    height: 14rem;
+    width: 20rem;
+    margin: 4rem;
+}
+.carta--img{
+    height: 10rem;
+    width: 10rem;
+    margin: 2rem;
+    border-radius: 7rem;
+}
+
+.Carta{
+    text-align: center;
+    margin: 0 2rem;
+
+}
+.hoja{
+    height: 10rem;
+    width: 10rem;
+    margin: 2rem;
+    border-radius: 7rem;
+}
+
+.bus{
+    height: 10rem;
+    width: 10rem;
+    margin: 2rem;
+    border-radius: 7rem;
+}
+
+.cuadroMitad{
+    display: flex;
+    justify-content: center;
+     max-width: 50rem;
+    margin: auto;
+}
+
+.cuadroCentral{
+
+}
+
+.Medio{
+   
+    
+}
+
+.tittle{
+    text-align: center;
+    
+}
+
+.texto{
+    text-align: center;
+
+}
+
+.CuadroMedio{
+    display: flex;
+    justify-content: center ;
+}
+
+.sectionCurrency{
+    display: flex;
+}
+
+.currencyLeft, .currencyRight{
+width: 50%;
+margin: 3rem auto;
+}
+
+.containerServicios{
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 50rem;
+
+    margin: auto;
+    justify-content: center;
+
+}
+
+.cartaServicio{
+
+    max-width: 32%;
+    margin: 2rem 2rem;
+    display: flex;
+
+}
+.contenedorServicio{
+    text-align: center;
+}
+
+.servicioImg{
+    padding: 1rem;
+}
+
+
