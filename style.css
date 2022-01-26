@@ -125,7 +125,7 @@ section{
 .cuadroMitad{
     display: flex;
     justify-content: center;
-     max-width: 50rem;
+    max-width: 50rem;
     margin: auto;
 }
 
@@ -188,3 +188,92 @@ margin: 3rem auto;
 }
 
 
+.footerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.containerpag{
+    display: flex;
+    
+}
+
+.facebook{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2.5rem;
+    margin: 0.2rem;
+
+}
+
+.Github{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2.5rem;
+    margin: 0.2rem;
+}
+
+.Twtter{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2.5rem;
+    margin: 0.2rem;
+}
+
+.imgmail{
+    height: 2rem;
+    width: 3rem;
+    margin: 1rem;
+}
+
+.footerImg{
+    background-color: var(--mainColor);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    
+}
+
+.listFooter {
+    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: black;
+    
+  
+}
+
+.footerFrame{
+    background-color: var(--mainColor);
+    display: flex;
+    margin: 0.8rem;
+    border-radius: 1rem;
+    
+}
+
+.footerBox{
+    display: flex;
+}
+
+.footerSocial{
+    color: white;
+    list-style-type: none;
+   
+}
+
+.faceBook{
+    margin: 1rem;
+    color: white;
+}
+
+.gitHub{
+     margin: 1rem;
+     color: white;
+    } 
+
+.twTter{
+    margin: 1rem;
+    color: white;
+}
