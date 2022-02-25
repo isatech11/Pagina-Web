@@ -6,6 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="./style.css">
+        <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
     </head>
     <body>
         <header class="containerHeader">
@@ -127,6 +132,82 @@
 
         <section class="sectionAboutUs"></section>
     </main>
+   
+   <section class="Section-slider">
+       <div class="c1">
+        <h3>People are saying about us</h3>
+       </div>
+       <div>
+        <small>See all</small>
+        <img class="Arrow" src="./img/flecha.png" alt="arrow">
+       </div>
+
+
+
+
+       <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="Boxuno">      
+            <div> 
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Duis in aliquet justo.</p>
+            </div>
+            <div class="contenerdorbox">
+                <div><img class="usuaria"  src="./img/chica.jpg" alt="usuaria"></div>
+                <div><h3 class="h3"> Designer </h3><small>Designer</small></div>
+            </div>
+        </div> 
+      </div>
+      <div class="swiper-slide">
+        <div class="Boxuno">      
+            <div> 
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Duis in aliquet justo.</p>
+            </div>
+            <div class="contenerdorbox">
+                <div><img class="usuaria"  src="./img/chica.jpg" alt="usuaria"></div>
+                <div><h3 class="h3"> Dev opter </h3><small>Designer</small></div>
+            </div>
+        </div> 
+      </div>
+      <div class="swiper-slide">
+        <div class="Boxuno">      
+            <div> 
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Duis in aliquet justo.</p>
+            </div>
+            <div class="contenerdorbox">
+                <div><img class="usuaria"  src="./img/chica.jpg" alt="usuaria"></div>
+                <div><h3 class="h3"> hello </h3><small>Designer</small></div>
+            </div>
+        </div> 
+      </div>
+     <!-- Se termino las diapositivas -->
+    </div>
+   
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+   </section>
+   
+ 
+
+   
+
+
+
+
+
+   
+   
+
+
+
+
+
     <footer>
         <div class="footerContainer">
 <div class="footerBox">
@@ -138,6 +219,7 @@
     <p>Lorem ipsum dolor sit amet, <br/>consectetur adipiscing elit. <br/>Duis in aliquet justo.</p>
 </div>
 </div>
+
 <div >
     <a href="">
         <ul class="listFooter">
@@ -188,5 +270,7 @@
    </div>
  </div>
  </footer>
+ <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+ <script src="./index.js"></script>
 </body>
 </html>
